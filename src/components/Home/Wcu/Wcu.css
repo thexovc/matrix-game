@@ -1,0 +1,258 @@
+.wcu__container {
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--bg-color);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  gap: 100px;
+}
+
+.wcu__heading {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5px 50px;
+}
+
+.wcu__heading h1 {
+  color: var(--primary-color);
+  font-size: 40px;
+}
+
+.wcu__heading p {
+  color: white;
+  font-size: 20px;
+}
+
+.wcu__content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wcu__cards {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  gap: 30px;
+  width: 95%;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.wcu__card {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.wcu__icon {
+  font-size: 120px;
+  color: var(--secondary-color);
+}
+
+.wcu__text {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.wcu__text h1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.wcu__text p {
+  font-size: 20px;
+}
+
+/* media query */
+
+/* @media screen and (min-width: 1400px) {
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+} */
+
+@media screen and (min-width: 1400px) {}
+
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 1200px) {
+  .wcu__content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wcu__heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 5px 50px;
+  }
+
+  .wcu__heading h1 {
+    color: var(--primary-color);
+    font-size: 40px;
+  }
+
+  .wcu__heading p {
+    color: white;
+    font-size: 20px;
+  }
+
+  .wcu__cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    gap: 70px;
+    width: 80%;
+  }
+
+  h1 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .wcu__card {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .wcu__icon {
+    font-size: 120px;
+    color: var(--secondary-color);
+  }
+
+  .wcu__text {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .wcu__text h1 {
+    font-size: 35px;
+  }
+
+  .wcu__text p {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 576px) {
+  .wcu__cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    gap: 100px;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 476px) {
+  .wcu__content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wcu__cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    gap: 100px;
+  }
+
+  h1 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .wcu__card {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .wcu__icon {
+    font-size: 120px;
+    color: var(--secondary-color);
+  }
+
+  .wcu__text {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .wcu__text h1 {
+    font-size: 30px;
+  }
+
+  .wcu__text p {
+    font-size: 20px;
+  }
+}

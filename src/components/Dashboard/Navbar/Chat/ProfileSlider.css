@@ -1,0 +1,15 @@
+.chat__profile__containter {
+  display: flex;
+  flex-direction: row;
+}
+
+.chat__profile__content {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+/* .chat__profile__content img {
+  width: 2rem;
+  height: 2rem;
+} */

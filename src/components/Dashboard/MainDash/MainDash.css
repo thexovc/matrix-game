@@ -1,0 +1,118 @@
+.MainDash {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  gap: 40px;
+  color: #f2f2f2;
+}
+
+.MainDash h1 {
+  font-size: 30px;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  z-index: 100000;
+  width: 100%;
+  gap: 20px;
+}
+
+.dashcard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.dashwallet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  gap: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .MainDash {
+    justify-content: flex-start;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .MainDash h1 {
+    font-size: 25px;
+  }
+
+  .row1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 100000;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .dashcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  .dashwallet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .MainDash {
+    align-items: center;
+  }
+  .row1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 100000;
+    width: 90%;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .row1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 100000;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .dashcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .dashwallet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    gap: 25px;
+  }
+}

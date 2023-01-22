@@ -1,0 +1,100 @@
+.dashWallet__con {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  width: 100%;
+  border: 1px solid #17212b;
+
+  background-color: #17212b;
+  border-radius: 20px;
+}
+
+.dashWallet__content {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  padding: 20px 30px;
+  gap: 50px;
+}
+
+.dashWallet__head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.dashWallet__text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.dashWallet__text > h1 {
+  font-size: 20px !important;
+  font-weight: 700 !important;
+}
+
+.dashWallet__text > p {
+  font-size: 10px;
+}
+
+.dashWallet__loader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashWallet__exps {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.dashWallet__exp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.dashWallet__exp span {
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+}
+
+.dashWallet__exp p {
+  font-size: 12px;
+}
+
+.span1 {
+  background-color: #3c8ef7;
+}
+.span2 {
+  background-color: #deecf9 !important;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 992px) {
+  .dashWallet__content {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    padding: 20px 20px;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+}

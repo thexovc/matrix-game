@@ -1,0 +1,37 @@
+.Cards {
+  display: flex;
+  gap: 10px;
+}
+.parentContainer {
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .Cards {
+    /* flex-direction: column; */
+  }
+  .parentContainer {
+    height: 9rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .Cards {
+    display: flex;
+    gap: 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Cards {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .Cards {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+}

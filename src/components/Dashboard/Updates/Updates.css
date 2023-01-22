@@ -1,0 +1,119 @@
+.Updates {
+  width: 85%;
+  background: white;
+  border-radius: 0.7rem;
+  padding: 1rem;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+
+.update {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.update > img {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.noti > div > span:nth-of-type(1) {
+  font-weight: bold;
+}
+
+/* media query */
+
+/* @media screen and (min-width: 1400px) {
+    
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+} */
+
+@media screen and (min-width: 1400px) {
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+  .Updates {
+    width: 90%;
+    background: white;
+    border-radius: 0.7rem;
+    padding: 0.5rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+  }
+  .update > img {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .Updates {
+    width: 95%;
+    background: white;
+    border-radius: 0.7rem;
+    padding: 0.2rem;
+    gap: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+  }
+  .update > img {
+    width: 2rem;
+    height: 2rem;
+  }
+  .update {
+    display: flex;
+    gap: 0.3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Updates {
+    width: 85%;
+    background: white;
+    border-radius: 0.7rem;
+    padding: 1rem;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+  }
+
+  .update {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .update > img {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+
+  .noti > div > span:nth-of-type(1) {
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}

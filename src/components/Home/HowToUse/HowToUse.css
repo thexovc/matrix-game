@@ -1,0 +1,91 @@
+.howtouse__container {
+    width: 100%;
+    background-image: url("../../../assets/Home/HowToUse/howtouse.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-color);
+    gap: 40px;
+    padding-bottom: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background-color: var(--bg-color); */
+
+}
+
+.howtouse__container__heading {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    padding-top: 40px;
+    font-size: 1.5rem;
+}
+
+.howtouse__container__card {
+    display: grid;
+    width: 70%;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.howtouse__container__card__item__num {
+    width: 100%;
+    color: var(--primary-color);
+    font-size: 150px;
+}
+
+.howtouse__container__card__item__card {
+    z-index: 10;
+    margin-top: -30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+
+.howtouse__container__card__item__card__text {
+    width: 70%;
+}
+
+
+@media screen and (max-width: 992px) {
+    .howtouse__container {
+        gap: 20px;
+    }
+
+    .howtouse__container__heading {
+        font-size: 1rem;
+    }
+
+
+    .howtouse__container__card {
+        display: grid;
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .howtouse__container__card__item__num {
+        width: 100%;
+        color: var(--primary-color);
+        font-size: 100px;
+    }
+
+    .howtouse__container__card__item__card {
+        z-index: 10;
+        margin-top: -70px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 20px;
+    }
+
+
+    .howtouse__container__card__item__card__text {
+        width: 100%;
+    }
+
+
+}

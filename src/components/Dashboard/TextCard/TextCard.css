@@ -1,0 +1,119 @@
+.textCard__con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #17212b;
+
+  background-color: #17212b;
+  border-radius: 10px;
+}
+
+.textCard__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  text-align: center;
+  gap: 5px;
+  padding: 10px 0;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 12px;
+}
+
+/* media query */
+
+/* @media screen and (min-width: 1400px) {
+    
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+} */
+
+@media screen and (min-width: 1500px) {
+  .textCard__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    text-align: center;
+    gap: 15px;
+    padding: 10px 0;
+  }
+  h2 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+  .textCard__con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #17212b;
+
+    background-color: #17212b;
+    border-radius: 10px;
+  }
+
+  .textCard__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    text-align: center;
+    gap: 10px;
+    padding: 10px 0;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}

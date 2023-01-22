@@ -1,0 +1,194 @@
+.transactions__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.transactions__content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  width: 95%;
+  margin-top: 100px;
+  gap: 70px;
+}
+
+.transactions__head {
+  display: flex;
+  flex-direction: column;
+
+  gap: 30px;
+}
+
+.transactions__text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 10px;
+}
+
+.transactions__text > p {
+  font-size: 16px;
+}
+
+.transactions__tables {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.sellers__list__inputs1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 10px;
+}
+
+.sellers__list__inputs1 > form {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;
+}
+
+.sellers__list__inputs1 > form > input {
+  display: inline-block;
+  color: white;
+
+  width: 100%;
+  padding: 8.5px 10px;
+  font-size: 12px;
+  box-sizing: border-box;
+  background-color: white;
+  /* border: 2px solid var(--border-color); */
+  border-radius: 7px;
+}
+
+/* media query */
+
+/* @media screen and (min-width: 1400px) {
+    
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+} */
+
+@media screen and (min-width: 1400px) {
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+  .transactions__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .transactions__content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    gap: 70px;
+  }
+
+  .transactions__head {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+  }
+
+  .transactions__text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    text-align: center;
+  }
+
+  .transactions__text > p {
+    font-size: 16px;
+  }
+
+  .transactions__tables {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+  }
+
+  .transactions__table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .sellers__list__inputs1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .sellers__list__inputs1 > form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .sellers__list__inputs1 > form > input {
+    display: inline-block;
+    color: white;
+
+    width: 100%;
+    padding: 8.5px 10px;
+    font-size: 12px;
+    box-sizing: border-box;
+    background-color: white;
+    /* border: 2px solid var(--border-color); */
+    border-radius: 7px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+}
