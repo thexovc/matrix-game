@@ -38,6 +38,7 @@
   align-items: center;
   background-color: var(--secondary-color);
   gap: 30px;
+
   padding-bottom: 50px;
   padding-top: 50px;
   border-radius: 10px;
@@ -221,7 +222,7 @@
     gap: 30px;
     padding-bottom: 50px;
     padding-top: 50px;
-    width: 60%;
+    width: 90%;
   }
 
   .plans__card__h1 {

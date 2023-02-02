@@ -41,6 +41,10 @@ export const SidebarData = [
   },
   {
     icon: UilChart,
+    heading: "Referals",
+  },
+  {
+    icon: UilChart,
     heading: "Contact Us",
   },
 ];

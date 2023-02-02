@@ -1,8 +1,9 @@
 import React from "react";
-// import "./Updates.css";
+import "./Notification.css";
 import { UpdatesData } from "../../../Data/Data";
 import Stack from "@mui/material/Stack";
 import { Pagination } from "@mui/material";
+import { MdDelete } from "react-icons/md";
 
 const Notification = (props) => {
   return (
@@ -11,9 +12,11 @@ const Notification = (props) => {
         // display: "flex",
         // justifyContent: "center",
         // alignItems: "center",
+        width: "90%",
+        height: "100%",
         background: "#17212b",
       }}
-      className="Updates"
+      className="Updates1"
     >
       <div
         style={{
@@ -25,25 +28,37 @@ const Notification = (props) => {
         }}
       >
         <h2 style={{ color: "white" }}>Notifications</h2>
-        <span
-          onClick={() => {
-            props.sendNotification("modal-container__target ");
+        <MdDelete
+          style={{
+            fontSize: "30px",
           }}
-          class="modal-close"
-        >
-          Close
-        </span>
+        />
       </div>
       {UpdatesData.map((update) => {
         return (
-          <div className="update">
+          <div className="update1">
             <img src={update.img} alt="profile" />
             <div className="noti">
               <div style={{ marginBottom: "0.5rem" }}>
                 <span>{update.name}</span>
                 <span> {update.noti}</span>
               </div>
-              <span>{update.time}</span>
+              <span
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  // justifyContent: "space-between",
+                  gap: "5px",
+                  alignItems: "center",
+                }}
+              >
+                {update.time}{" "}
+                <MdDelete
+                  style={{
+                    fontSize: "20px",
+                  }}
+                />
+              </span>
             </div>
           </div>
         );

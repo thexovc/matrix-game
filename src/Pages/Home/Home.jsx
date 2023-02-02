@@ -26,7 +26,7 @@ const Home = ({ expandState }) => {
         <Plans />
         <HowToUse />
         <Video />
-        <Trx />
+        {/* <Trx /> */}
       </div>
       <Footer />
     </>

@@ -9,7 +9,7 @@ const Messages = ({ messages }) => {
   };
 
   return (
-    <Flex w="100%" h="80%" overflowY="scroll" flexDirection="column" p="3">
+    <Flex w="100%" h="100%" overflowY="scroll" flexDirection="column" p="3">
       {messages.map((item, index) => {
         if (item.from === "me") {
           return (

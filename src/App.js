@@ -12,6 +12,8 @@ import SellersTable from "./Pages/DashBoard/Sellers/SellersTable/SellersTable";
 import ContactUs from "./Pages/DashBoard/ContactUs/ContactUs";
 import { ChakraProvider, theme } from "@chakra-ui/react";
 import Chat from "./components/Dashboard/Navbar/Chat/Chat";
+
+import Cart from "./components/Dashboard/Navbar/Cart/Cart";
 function App() {
   return (
     <>
@@ -21,6 +23,9 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/dashboard" element={<Dashboard />} />
+
+          <Route path="/cart" element={<Cart />} />
+
           <Route
             path="/chat"
             element={

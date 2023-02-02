@@ -2,6 +2,7 @@ import React from "react";
 import Cards from "../Cards/Cards";
 import DashCard from "../DashCard/DashCard";
 import DashWallet from "../DashWallet/DashWallet";
+import Games from "../Games/Games";
 import Table from "../Table/Table";
 import Table1 from "../Table1/Table1";
 import Table2 from "../Table2/Table2";
@@ -21,10 +22,12 @@ const MainDash = () => {
           <TextCard />
         </div>
       </div>
+
       <Cards />
+      <Games />
       <Table />
-      <Table1 />
-      <Table2 />
+      {/* <Table1 />
+      <Table2 /> */}
     </div>
   );
 };

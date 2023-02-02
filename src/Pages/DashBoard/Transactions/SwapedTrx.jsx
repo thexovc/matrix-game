@@ -4,7 +4,7 @@ import "./Transactions.css";
 import { FiSearch } from "react-icons/fi";
 import { GoSettings } from "react-icons/go";
 
-const Transactions = () => {
+const SwapedTrx = () => {
   const [filterModal, setFilterModal] = useState("modal-container__target");
   return (
     <>
@@ -51,7 +51,7 @@ const Transactions = () => {
         <div className="transactions__content">
           <div className="transactions__head">
             <div className="transactions__text">
-              <h1>Transactions</h1>
+              <h1>Accounts Swaped Transactions</h1>
               <p>
                 Browse through your transactions to view your past transactions
               </p>
@@ -201,4 +201,4 @@ const Transactions = () => {
   );
 };
 
-export default Transactions;
+export default SwapedTrx;

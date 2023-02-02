@@ -6,7 +6,7 @@
 .transactions__content {
   display: flex;
   flex-direction: column;
-  padding-left: 50px;
+
   width: 95%;
   margin-top: 100px;
   gap: 70px;
@@ -26,14 +26,107 @@
   gap: 10px;
 }
 
+.transactions__text > h1 {
+  font-size: 30px;
+}
+
 .transactions__text > p {
   font-size: 16px;
 }
 
-.transactions__tables {
+.transactions__cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  width: 100%;
+  gap: 20px;
+}
+
+.transactions__card {
   display: flex;
   flex-direction: column;
+
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  padding: 20px;
+  width: 100%;
+}
+
+.transactions__card__content {
+  display: flex;
+  flex-direction: column;
+
+  gap: 30px;
+  width: 100%;
+}
+
+.transactions__card__content > h1 {
+}
+
+.transactions__card__content hr {
+  border-top: 1px dashed gray;
+}
+
+.transactions__card__body {
+  display: flex;
+  flex-direction: column;
+  /* 
+   */
+  width: 100%;
+  gap: 30px;
+}
+
+.transactions__card__body__value {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  text-align: left;
+}
+
+.transactions__card__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-align: left;
   gap: 50px;
+  color: gray;
+}
+
+/* .transactions__card__title > p {
+  width: 100%;
+} */
+
+.transactions__card__value {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  width: 100%;
+}
+
+.card__state {
+  padding: 3px 10px;
+  font-size: 10px;
+  background-color: green;
+  color: white;
+  border-radius: 15px;
+}
+
+.transactions__card__tail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 30px 0 0;
+}
+
+.tail2 {
+  color: #3c8ef7;
+  font-size: 20px;
 }
 
 .sellers__list__inputs1 {
@@ -93,6 +186,13 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .transactions__cards {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    width: 100%;
+    gap: 20px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -138,57 +238,112 @@
     width: 90%;
     text-align: center;
   }
+  .transactions__text > h1 {
+    font-size: 25px;
+  }
 
   .transactions__text > p {
     font-size: 16px;
   }
 
-  .transactions__tables {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    gap: 50px;
-  }
+  .transactions__cards {
+    display: grid;
+    grid-template-columns: auto auto;
 
-  .transactions__table {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
-
-  .sellers__list__inputs1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-  }
-
-  .sellers__list__inputs1 > form {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .sellers__list__inputs1 > form > input {
-    display: inline-block;
-    color: white;
-
-    width: 100%;
-    padding: 8.5px 10px;
-    font-size: 12px;
-    box-sizing: border-box;
-    background-color: white;
-    /* border: 2px solid var(--border-color); */
-    border-radius: 7px;
+    width: 95%;
+    gap: 20px;
   }
 }
 
 @media screen and (max-width: 576px) {
+  .transactions__cards {
+    display: grid;
+    grid-template-columns: auto;
+
+    width: 95%;
+    gap: 20px;
+  }
+
+  .transactions__text > h1 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .transactions__cards {
+    display: grid;
+    grid-template-columns: auto;
+
+    width: 95%;
+    gap: 20px;
+  }
+
+  .transactions__card {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    padding: 20px 10px;
+    width: 100%;
+  }
+
+  .transactions__card__content {
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
+    width: 100%;
+  }
+  .transactions__card__body {
+    display: flex;
+    flex-direction: column;
+    /* 
+     */
+    width: 100%;
+    gap: 30px;
+  }
+
+  .transactions__card__body__value {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .transactions__card__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    text-align: left;
+    gap: 10px;
+    color: gray;
+  }
+
+  /* .transactions__card__title > p {
+    width: 100%;
+  } */
+
+  .transactions__card__value {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .transactions__cards {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 20px;
+  }
 }

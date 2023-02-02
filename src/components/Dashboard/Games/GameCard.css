@@ -1,0 +1,136 @@
+.gamecard__container__card__con__card1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100%;
+
+  background-color: var(--secondary-color);
+  padding-bottom: 20px;
+  border-radius: 10px;
+  position: relative !important;
+  /* opacity: 0.5; */
+}
+.coming {
+  opacity: 0.5;
+}
+.img {
+  width: 100%;
+  /* height: auto; */
+}
+
+.gamecard__container__card__con__card1 > img {
+  object-fit: contain;
+  width: 100%;
+  padding: 0 !important;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.svg1 {
+  position: absolute;
+  top: 38%;
+  /* width: 100%; */
+}
+
+.gamecard__container__card__con__card1 > div {
+  font-size: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 90%;
+  text-align: center;
+}
+
+.gamecard__container__card__con__card__btn {
+  color: var(--green-color);
+  border: 2px solid var(--green-color);
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.gamecard__container__card__con__gray {
+  opacity: 40%;
+  color: lightgray !important;
+  border: 2px solid lightgray;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+/* media query */
+
+/* @media screen and (min-width: 1400px) {
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
+} */
+
+@media screen and (max-width: 768px) {
+  .gamecard__container__card__con__card1 > div > p {
+    font-size: 15px;
+  }
+  .gamecard__container__card__con__card__btn {
+    color: var(--green-color);
+    border: 2px solid var(--green-color);
+    padding: 3px 5px;
+    border-radius: 4px;
+  }
+
+  .gamecard__container__card__con__gray {
+    opacity: 40%;
+    color: lightgray !important;
+    border: 2px solid lightgray;
+    padding: 5px;
+    border-radius: 4px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .gamecard__container__card__con__card1 > div > p {
+    font-size: 15px;
+  }
+  .svg1 {
+    position: absolute;
+    top: 38%;
+    /* width: 100%; */
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .gamecard__container__card__con__card1 > div > p {
+    font-size: 10px;
+  }
+  .gamecard__container__card__con__card1 > div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 90%;
+    text-align: center;
+  }
+
+  .svg1 {
+    position: absolute;
+    top: 40%;
+    /* width: 100%; */
+  }
+}
